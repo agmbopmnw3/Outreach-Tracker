@@ -1,0 +1,22 @@
+{
+  "name": "SBI Outreach Tracker",
+  "short_name": "Outreach",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#003d7a",
+  "icons": [
+    {
+      "src": "/sbi-logo.png",
+      "sizes": "192x192",
+      "type": "image/png", 
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/sbi-logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

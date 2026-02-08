@@ -1,0 +1,13 @@
+
+CREATE TABLE users (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  phone_number TEXT NOT NULL UNIQUE,
+  name TEXT NOT NULL,
+  team TEXT NOT NULL,
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE INDEX idx_users_phone_number ON users(phone_number);
+
+ALTER TABLE activities ADD COLUMN user_id INTEGER;
